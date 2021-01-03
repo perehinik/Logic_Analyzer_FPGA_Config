@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jan  3 17:27:48 2021
+# Process ID: 7928
+# Current directory: C:/Github/SDRAM_Controller/Logic_Analyzer_FPGA_Config/Project_Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent968 C:\Github\SDRAM_Controller\Logic_Analyzer_FPGA_Config\Project_Vivado\LogAn_v2.xpr
+# Log file: C:/Github/SDRAM_Controller/Logic_Analyzer_FPGA_Config/Project_Vivado/vivado.log
+# Journal file: C:/Github/SDRAM_Controller/Logic_Analyzer_FPGA_Config/Project_Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Github/SDRAM_Controller/Logic_Analyzer_FPGA_Config/Project_Vivado/LogAn_v2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/VivadoProj/LogAn_release' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 799.656 ; gain = 139.441
+update_compile_order -fileset sources_1
+reset_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  3 17:34:09 2021...

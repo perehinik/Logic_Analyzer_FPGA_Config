@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot sym_top_func_impl xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port out on this module [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:8813]
+ERROR: [VRFC 10-426] cannot find port LED_OBUF on this module [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:8812]
+ERROR: [VRFC 10-426] cannot find port FT_OE_OBUF on this module [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:8811]
+ERROR: [VRFC 10-426] cannot find port FT_CLK60MHZ_IBUF_BUFG on this module [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:8810]
+ERROR: [VRFC 10-2063] Module <MUXF8> not found while processing module instance <mux_mask_en_reg[14]_i_3> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:8872]
+ERROR: [VRFC 10-2063] Module <decomposer_16_8> not found while processing module instance <decomposer_1> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:11990]
+ERROR: [VRFC 10-2063] Module <fifo_generator_1> not found while processing module instance <fifo_128> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:11999]
+ERROR: [VRFC 10-2063] Module <fifo_generator_2> not found while processing module instance <fifo_8_128> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:12009]
+ERROR: [VRFC 10-2063] Module <data_rate_ctrl> not found while processing module instance <rate_ctrl_1> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:12020]
+ERROR: [VRFC 10-2063] Module <timer1__parameterized1> not found while processing module instance <sampling_timer> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:12026]
+ERROR: [VRFC 10-2063] Module <trigger> not found while processing module instance <trigger1> [C:/Xilinx/VivadoProj/LogAn_v2/LogAn_v2.sim/sim_1/impl/func/xsim/sym_top_func_impl.v:12063]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

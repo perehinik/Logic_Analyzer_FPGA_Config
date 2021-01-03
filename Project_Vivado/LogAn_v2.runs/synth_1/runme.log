@@ -1,0 +1,769 @@
+
+*** Running vivado
+    with args -log top_mod.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_mod.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_mod.tcl -notrace
+Command: synth_design -top top_mod -part xc7a15tftg256-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8824 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 446.570 ; gain = 102.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_mod' [C:/Xilinx/VivadoProj/LogAn_release/src/top_mod.v:10]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter DATA_ACK bound to: 4'b0001 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (1#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'set_decode' [C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v:10]
+	Parameter LED_COUNTER bound to: 20'b01000000000000000000 
+	Parameter IDLE bound to: 4'b0000 
+	Parameter CH_SYM_1 bound to: 4'b0001 
+	Parameter CH_SYM_2 bound to: 4'b0010 
+	Parameter CH_SYM_3 bound to: 4'b0011 
+	Parameter RD_HEX_1 bound to: 4'b0100 
+	Parameter RD_HEX_2 bound to: 4'b0101 
+	Parameter RD_HEX_3 bound to: 4'b0110 
+	Parameter RD_HEX_4 bound to: 4'b0111 
+	Parameter RD_HEX_5 bound to: 4'b1000 
+	Parameter RD_HEX_6 bound to: 4'b1001 
+	Parameter SAVE_SET bound to: 4'b1010 
+	Parameter RST_FLAG bound to: 4'b1011 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v:94]
+INFO: [Synth 8-6157] synthesizing module 'ascii_to_hex' [C:/Xilinx/VivadoProj/LogAn_release/src/ascii_to_hex.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_to_hex' (2#1) [C:/Xilinx/VivadoProj/LogAn_release/src/ascii_to_hex.v:10]
+INFO: [Synth 8-6157] synthesizing module 'timer1' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+	Parameter SIZE bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer1' (3#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'set_decode' (4#1) [C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser' (5#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized0' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized0' (5#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized1' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized1' (5#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'trigger' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/trigger.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Mux_1b_16' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_1b_16' (6#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Mux_1b_4' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_1b_4' (7#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'trigger' (8#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/trigger.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized2' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized2' (8#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'i2c_trim' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v:10]
+	Parameter TR_IDLE bound to: 4'b0000 
+	Parameter DATA_START bound to: 4'b0001 
+	Parameter DATA_OUT bound to: 4'b0010 
+	Parameter DATA_STOP bound to: 4'b0011 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v:59]
+WARNING: [Synth 8-5788] Register data_out_reg in module i2c_trim is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_trim' (9#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized3' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized3' (9#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_mux' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v:10]
+	Parameter IDLE bound to: 5'b00000 
+	Parameter MUX_1 bound to: 5'b00001 
+	Parameter MUX_2 bound to: 5'b00010 
+	Parameter MUX_3 bound to: 5'b00011 
+	Parameter MUX_4 bound to: 5'b00100 
+	Parameter MUX_5 bound to: 5'b00101 
+	Parameter MUX_6 bound to: 5'b00110 
+	Parameter MUX_7 bound to: 5'b00111 
+	Parameter MUX_8 bound to: 5'b01000 
+	Parameter MUX_9 bound to: 5'b01001 
+	Parameter MUX_10 bound to: 5'b01010 
+	Parameter MUX_11 bound to: 5'b01011 
+	Parameter MUX_12 bound to: 5'b01100 
+	Parameter MUX_13 bound to: 5'b01101 
+	Parameter MUX_14 bound to: 5'b01110 
+	Parameter MUX_15 bound to: 5'b01111 
+	Parameter MUX_16 bound to: 5'b10000 
+INFO: [Synth 8-6157] synthesizing module 'timer1__parameterized0' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+	Parameter SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer1__parameterized0' (9#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'data_mux' (10#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_rate_ctrl' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'data_rate_ctrl' (11#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_composer' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v:10]
+	Parameter IDLE_2 bound to: 4'b0000 
+	Parameter ST_2_1 bound to: 4'b0001 
+	Parameter ST_2_2 bound to: 4'b0010 
+	Parameter ST_2_3 bound to: 4'b0011 
+	Parameter ST_2_4 bound to: 4'b0100 
+	Parameter ST_2_5 bound to: 4'b0101 
+	Parameter ST_2_6 bound to: 4'b0110 
+	Parameter ST_2_7 bound to: 4'b0111 
+	Parameter ST_2_8 bound to: 4'b1000 
+	Parameter IDLE_4 bound to: 4'b0000 
+	Parameter ST_4_1 bound to: 4'b0001 
+	Parameter ST_4_2 bound to: 4'b0010 
+	Parameter ST_4_3 bound to: 4'b0011 
+	Parameter ST_4_4 bound to: 4'b0100 
+	Parameter IDLE_8 bound to: 4'b0000 
+	Parameter ST_8_1 bound to: 4'b0001 
+	Parameter ST_8_2 bound to: 4'b0010 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v:59]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v:125]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v:181]
+INFO: [Synth 8-6155] done synthesizing module 'data_composer' (12#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v:10]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_1' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_1' (13#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_0' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_0' (14#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized4' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized4' (14#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'decomposer_16_8' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:10]
+	Parameter IDLE bound to: 2'b00 
+	Parameter DATA_OUT_1 bound to: 2'b01 
+	Parameter DATA_OUT_2 bound to: 2'b10 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'decomposer_16_8' (15#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:10]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_2' [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_2' (16#1) [C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/.Xil/Vivado-5016-HomeIvan22/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'top_mod' (17#1) [C:/Xilinx/VivadoProj/LogAn_release/src/top_mod.v:10]
+WARNING: [Synth 8-3917] design top_mod has port FT_SIWU driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 498.375 ; gain = 154.523
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 498.375 ; gain = 154.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 498.375 ; gain = 154.523
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a15tftg256-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc] for cell 'clk'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'fifo_8'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'fifo_8'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'fifo_16'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'fifo_16'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'fifo_16_2'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'fifo_16_2'
+Parsing XDC File [C:/Xilinx/VivadoProj/LogAn_release/src/pins.xdc]
+Finished Parsing XDC File [C:/Xilinx/VivadoProj/LogAn_release/src/pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/VivadoProj/LogAn_release/src/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_mod_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_mod_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 839.262 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'fifo_16' at clock pin 'clk' is different from the actual clock period '3.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'fifo_16_2' at clock pin 'clk' is different from the actual clock period '3.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'fifo_8' at clock pin 'wr_clk' is different from the actual clock period '3.333', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 839.262 ; gain = 495.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a15tftg256-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 839.262 ; gain = 495.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1/clk_wiz_1_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for clk. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fifo_16_2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 839.262 ; gain = 495.410
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'set_decode'
+INFO: [Synth 8-5546] ROM "samp_freq" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "led_timer_start" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'tr_state_reg' in module 'i2c_trim'
+INFO: [Synth 8-5546] ROM "scl_t" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'data_mux'
+INFO: [Synth 8-5546] ROM "mux_timer_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "next_state" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-802] inferred FSM for state register 'state_2_ch_reg' in module 'data_composer'
+INFO: [Synth 8-802] inferred FSM for state register 'state_4_ch_reg' in module 'data_composer'
+INFO: [Synth 8-802] inferred FSM for state register 'state_8_ch_reg' in module 'data_composer'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'decomposer_16_8'
+INFO: [Synth 8-5544] ROM "data_in_temp" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'top_mod'
+INFO: [Synth 8-5546] ROM "sampling_timer_finish" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0011 |                             0000
+                CH_SYM_1 |                             0111 |                             0001
+                CH_SYM_2 |                             0101 |                             0010
+                CH_SYM_3 |                             0000 |                             0011
+                RD_HEX_1 |                             0001 |                             0100
+                RD_HEX_2 |                             0100 |                             0101
+                RD_HEX_3 |                             1011 |                             0110
+                RD_HEX_4 |                             1000 |                             0111
+                RD_HEX_5 |                             1001 |                             1000
+                RD_HEX_6 |                             1010 |                             1001
+                SAVE_SET |                             0010 |                             1010
+                RST_FLAG |                             0110 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'set_decode'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 TR_IDLE |                               00 |                             0000
+              DATA_START |                               01 |                             0001
+                DATA_OUT |                               10 |                             0010
+               DATA_STOP |                               11 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tr_state_reg' using encoding 'sequential' in module 'i2c_trim'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                            00000 |                            00000
+                   MUX_1 |                            00001 |                            00001
+                   MUX_2 |                            00010 |                            00010
+                   MUX_3 |                            00011 |                            00011
+                   MUX_4 |                            00100 |                            00100
+                   MUX_5 |                            00101 |                            00101
+                   MUX_6 |                            00110 |                            00110
+                   MUX_7 |                            00111 |                            00111
+                   MUX_8 |                            01000 |                            01000
+                   MUX_9 |                            01001 |                            01001
+                  MUX_10 |                            01010 |                            01010
+                  MUX_11 |                            01011 |                            01011
+                  MUX_12 |                            01100 |                            01100
+                  MUX_13 |                            01101 |                            01101
+                  MUX_14 |                            01110 |                            01110
+                  MUX_15 |                            01111 |                            01111
+                  MUX_16 |                            10000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'data_mux'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  IDLE_2 |                             0000 |                             0000
+                  ST_2_1 |                             0001 |                             0001
+                  ST_2_2 |                             0010 |                             0010
+                  ST_2_3 |                             0011 |                             0011
+                  ST_2_4 |                             0100 |                             0100
+                  ST_2_5 |                             0101 |                             0101
+                  ST_2_6 |                             0110 |                             0110
+                  ST_2_7 |                             0111 |                             0111
+                  ST_2_8 |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_2_ch_reg' using encoding 'sequential' in module 'data_composer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  IDLE_4 |                              000 |                             0000
+                  ST_4_1 |                              001 |                             0001
+                  ST_4_2 |                              010 |                             0010
+                  ST_4_3 |                              011 |                             0011
+                  ST_4_4 |                              100 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_4_ch_reg' using encoding 'sequential' in module 'data_composer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  IDLE_8 |                              001 |                             0000
+                  ST_8_1 |                              010 |                             0001
+                  ST_8_2 |                              100 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_8_ch_reg' using encoding 'one-hot' in module 'data_composer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+              DATA_OUT_1 |                               01 |                               01
+              DATA_OUT_2 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'decomposer_16_8'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                                0 |                             0000
+                DATA_ACK |                                1 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'top_mod'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 839.262 ; gain = 495.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               24 Bit    Registers := 3     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 7     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 19    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 181   
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 3     
+	   4 Input     27 Bit        Muxes := 1     
+	  11 Input     24 Bit        Muxes := 2     
+	  17 Input     16 Bit        Muxes := 2     
+	   9 Input     16 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	  11 Input      8 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  17 Input      5 Bit        Muxes := 2     
+	  16 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 44    
+	  12 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 3     
+	   5 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 10    
+	   3 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 14    
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 34    
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 8     
+	  17 Input      1 Bit        Muxes := 18    
+	   9 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_mod 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module ascii_to_hex 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module timer1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module set_decode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
++---Muxes : 
+	  11 Input     24 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 8     
+Module synchroniser 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module synchroniser__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 32    
+Module synchroniser__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 16    
+Module trigger 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module synchroniser__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 18    
+Module i2c_trim 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 3     
+	   4 Input     27 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module synchroniser__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 34    
+Module timer1__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module data_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 16    
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 2     
+	  17 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	  17 Input      1 Bit        Muxes := 18    
+Module data_rate_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module data_composer 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   9 Input     16 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 30    
+	   9 Input      4 Bit        Muxes := 3     
+	   5 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 10    
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module synchroniser__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 36    
+Module decomposer_16_8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 8     
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "samp_freq" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scl_t" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sampling_timer_finish" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design top_mod has port FT_SIWU driven by constant 1
+WARNING: [Synth 8-3332] Sequential element (data_mux_1/mux_mask_en_reg[1]) is unused and will be removed from module top_mod.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 839.262 ; gain = 495.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk/clk_out1' to pin 'clk/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 840.145 ; gain = 496.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 894.449 ; gain = 550.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (data_mux_1/mux_mask_en_reg[0]) is unused and will be removed from module top_mod.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop reset_dly_cnt_reg[5] is being inverted and renamed to reset_dly_cnt_reg[5]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |clk_wiz_1        |         1|
+|2     |fifo_generator_1 |         1|
+|3     |fifo_generator_0 |         1|
+|4     |fifo_generator_2 |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |clk_wiz_1        |     1|
+|2     |fifo_generator_0 |     1|
+|3     |fifo_generator_1 |     1|
+|4     |fifo_generator_2 |     1|
+|5     |BUFG             |     1|
+|6     |CARRY4           |    32|
+|7     |LUT1             |    10|
+|8     |LUT2             |   129|
+|9     |LUT3             |   119|
+|10    |LUT4             |   135|
+|11    |LUT5             |    84|
+|12    |LUT6             |   189|
+|13    |MUXF7            |    29|
+|14    |MUXF8            |     3|
+|15    |FDCE             |   207|
+|16    |FDPE             |    18|
+|17    |FDRE             |   459|
+|18    |FDSE             |    10|
+|19    |LDC              |     8|
+|20    |IBUF             |    19|
+|21    |IOBUF            |     8|
+|22    |OBUF             |     6|
+|23    |OBUFT            |     1|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+--------------------+-------------------------------+------+
+|      |Instance            |Module                         |Cells |
++------+--------------------+-------------------------------+------+
+|1     |top                 |                               |  1559|
+|2     |  data_composer_1   |data_composer                  |   165|
+|3     |  data_in_synch_16  |synchroniser__parameterized0   |   143|
+|4     |  data_mux_1        |data_mux                       |   163|
+|5     |    mux_timer       |timer1__parameterized0         |    38|
+|6     |  decode1           |set_decode                     |   302|
+|7     |    led_timer       |timer1                         |    48|
+|8     |  decomposer_1      |decomposer_16_8                |    31|
+|9     |  i2c_trim_1        |i2c_trim                       |   129|
+|10    |  mux_synch_16      |synchroniser__parameterized3   |    41|
+|11    |  rate_ctrl_1       |data_rate_ctrl                 |    66|
+|12    |  rate_synch_16     |synchroniser__parameterized0_0 |    37|
+|13    |  rst_start_sync_2  |synchroniser                   |    59|
+|14    |  trig_pos_synch_16 |synchroniser__parameterized4   |    96|
+|15    |  trigger1          |trigger                        |     6|
+|16    |  trigger_sync_8    |synchroniser__parameterized1   |    22|
+|17    |  trim_sync_9       |synchroniser__parameterized2   |    35|
++------+--------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 903.469 ; gain = 218.730
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 903.469 ; gain = 559.617
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 99 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  LDC => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+104 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:45 . Memory (MB): peak = 903.469 ; gain = 571.086
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/top_mod.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_mod_utilization_synth.rpt -pb top_mod_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 903.469 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  8 22:08:50 2020...

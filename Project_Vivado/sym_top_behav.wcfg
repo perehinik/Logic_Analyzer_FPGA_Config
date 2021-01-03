@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sym_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sym_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="951416666fs"></ZoomStartTime>
+      <ZoomEndTime time="1009716667fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/sym_top/CLK_100" type="logic">
+      <obj_property name="ElementShortName">CLK_100</obj_property>
+      <obj_property name="ObjectShortName">CLK_100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/LED" type="logic">
+      <obj_property name="ElementShortName">LED</obj_property>
+      <obj_property name="ObjectShortName">LED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/CLK_60" type="logic">
+      <obj_property name="ElementShortName">CLK_60</obj_property>
+      <obj_property name="ObjectShortName">CLK_60</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_RXF" type="logic">
+      <obj_property name="ElementShortName">FT_RXF</obj_property>
+      <obj_property name="ObjectShortName">FT_RXF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_TXE" type="logic">
+      <obj_property name="ElementShortName">FT_TXE</obj_property>
+      <obj_property name="ObjectShortName">FT_TXE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_RD" type="logic">
+      <obj_property name="ElementShortName">FT_RD</obj_property>
+      <obj_property name="ObjectShortName">FT_RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_WR" type="logic">
+      <obj_property name="ElementShortName">FT_WR</obj_property>
+      <obj_property name="ObjectShortName">FT_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_OE" type="logic">
+      <obj_property name="ElementShortName">FT_OE</obj_property>
+      <obj_property name="ObjectShortName">FT_OE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_SIWU" type="logic">
+      <obj_property name="ElementShortName">FT_SIWU</obj_property>
+      <obj_property name="ObjectShortName">FT_SIWU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_DATA_1" type="array">
+      <obj_property name="ElementShortName">FT_DATA_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FT_DATA_1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/FT_DATA" type="array">
+      <obj_property name="ElementShortName">FT_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FT_DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/timer_rst" type="logic">
+      <obj_property name="ElementShortName">timer_rst</obj_property>
+      <obj_property name="ObjectShortName">timer_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sym_top/timer_finish" type="logic">
+      <obj_property name="ElementShortName">timer_finish</obj_property>
+      <obj_property name="ObjectShortName">timer_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="group220" type="group">
+      <obj_property name="label">Settings</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/ch_count" type="array">
+         <obj_property name="ElementShortName">ch_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/start_stb" type="logic">
+         <obj_property name="ElementShortName">start_stb</obj_property>
+         <obj_property name="ObjectShortName">start_stb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rst_stb" type="logic">
+         <obj_property name="ElementShortName">rst_stb</obj_property>
+         <obj_property name="ObjectShortName">rst_stb</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group292" type="group">
+      <obj_property name="label">data_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/ch_bitmap" type="array">
+         <obj_property name="ElementShortName">ch_bitmap[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/ch_bitmap_upd_flag" type="logic">
+         <obj_property name="ElementShortName">ch_bitmap_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/ch_count" type="array">
+         <obj_property name="ElementShortName">ch_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/ch_count_temp" type="array">
+         <obj_property name="ElementShortName">ch_count_temp[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_count_temp[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/ch_count_out" type="array">
+         <obj_property name="ElementShortName">ch_count_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_count_out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/state" type="array">
+         <obj_property name="ElementShortName">state[4:0]</obj_property>
+         <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[4:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mux_adr" type="array">
+         <obj_property name="ElementShortName">mux_adr[15:0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_adr[15:0][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mux_timer_reset" type="logic">
+         <obj_property name="ElementShortName">mux_timer_reset</obj_property>
+         <obj_property name="ObjectShortName">mux_timer_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mux_timer_count" type="array">
+         <obj_property name="ElementShortName">mux_timer_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_timer_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mux_timer_finish" type="logic">
+         <obj_property name="ElementShortName">mux_timer_finish</obj_property>
+         <obj_property name="ObjectShortName">mux_timer_finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mask_mux_out" type="logic">
+         <obj_property name="ElementShortName">mask_mux_out</obj_property>
+         <obj_property name="ObjectShortName">mask_mux_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_mux_1/mux_mask_en" type="array">
+         <obj_property name="ElementShortName">mux_mask_en[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_mask_en[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/ch_bitmap" type="array">
+         <obj_property name="ElementShortName">ch_bitmap[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/ch_bitmap_sync" type="array">
+         <obj_property name="ElementShortName">ch_bitmap_sync[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap_sync[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/ch_bitmap_upd_flag_sync" type="logic">
+         <obj_property name="ElementShortName">ch_bitmap_upd_flag_sync</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap_upd_flag_sync</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group326" type="group">
+      <obj_property name="label">Decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/stb_in" type="logic">
+         <obj_property name="ElementShortName">stb_in</obj_property>
+         <obj_property name="ObjectShortName">stb_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/ack_in" type="logic">
+         <obj_property name="ElementShortName">ack_in</obj_property>
+         <obj_property name="ObjectShortName">ack_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/samp_freq" type="array">
+         <obj_property name="ElementShortName">samp_freq[15:0]</obj_property>
+         <obj_property name="ObjectShortName">samp_freq[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/samp_num" type="array">
+         <obj_property name="ElementShortName">samp_num[23:0]</obj_property>
+         <obj_property name="ObjectShortName">samp_num[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/trig_type" type="array">
+         <obj_property name="ElementShortName">trig_type[3:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_type[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/trig_ch" type="array">
+         <obj_property name="ElementShortName">trig_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/ch_bitmap" type="array">
+         <obj_property name="ElementShortName">ch_bitmap[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/voltage_th" type="array">
+         <obj_property name="ElementShortName">voltage_th[7:0]</obj_property>
+         <obj_property name="ObjectShortName">voltage_th[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/trig_position" type="array">
+         <obj_property name="ElementShortName">trig_position[16:0]</obj_property>
+         <obj_property name="ObjectShortName">trig_position[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/samp_freq_upd_flag" type="logic">
+         <obj_property name="ElementShortName">samp_freq_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">samp_freq_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/samp_num_upd_flag" type="logic">
+         <obj_property name="ElementShortName">samp_num_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">samp_num_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/trig_upd_flag" type="logic">
+         <obj_property name="ElementShortName">trig_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">trig_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/ch_bitmap_upd_flag" type="logic">
+         <obj_property name="ElementShortName">ch_bitmap_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">ch_bitmap_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/voltage_th_upd_flag" type="logic">
+         <obj_property name="ElementShortName">voltage_th_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">voltage_th_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/trig_pos_upd_flag" type="logic">
+         <obj_property name="ElementShortName">trig_pos_upd_flag</obj_property>
+         <obj_property name="ObjectShortName">trig_pos_upd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/start_stb" type="logic">
+         <obj_property name="ElementShortName">start_stb</obj_property>
+         <obj_property name="ObjectShortName">start_stb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/rst_stb" type="logic">
+         <obj_property name="ElementShortName">rst_stb</obj_property>
+         <obj_property name="ObjectShortName">rst_stb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/status_led" type="logic">
+         <obj_property name="ElementShortName">status_led</obj_property>
+         <obj_property name="ObjectShortName">status_led</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/command_code" type="array">
+         <obj_property name="ElementShortName">command_code[7:0]</obj_property>
+         <obj_property name="ObjectShortName">command_code[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/command_type" type="array">
+         <obj_property name="ElementShortName">command_type[7:0]</obj_property>
+         <obj_property name="ObjectShortName">command_type[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/converted_value" type="array">
+         <obj_property name="ElementShortName">converted_value[23:0]</obj_property>
+         <obj_property name="ObjectShortName">converted_value[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/data_hex" type="array">
+         <obj_property name="ElementShortName">data_hex[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_hex[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/ascii_to_hex_error" type="logic">
+         <obj_property name="ElementShortName">ascii_to_hex_error</obj_property>
+         <obj_property name="ObjectShortName">ascii_to_hex_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/led_timer_start" type="logic">
+         <obj_property name="ElementShortName">led_timer_start</obj_property>
+         <obj_property name="ObjectShortName">led_timer_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/n_status_led" type="logic">
+         <obj_property name="ElementShortName">n_status_led</obj_property>
+         <obj_property name="ObjectShortName">n_status_led</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/rst_tim_count" type="array">
+         <obj_property name="ElementShortName">rst_tim_count[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_tim_count[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/rst_tim_finish" type="logic">
+         <obj_property name="ElementShortName">rst_tim_finish</obj_property>
+         <obj_property name="ObjectShortName">rst_tim_finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/rst_tim_out" type="logic">
+         <obj_property name="ElementShortName">rst_tim_out</obj_property>
+         <obj_property name="ObjectShortName">rst_tim_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decode1/rst_tim_rst" type="logic">
+         <obj_property name="ElementShortName">rst_tim_rst</obj_property>
+         <obj_property name="ObjectShortName">rst_tim_rst</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group362" type="group">
+      <obj_property name="label">Rate_ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/count" type="array">
+         <obj_property name="ElementShortName">count[15:0]</obj_property>
+         <obj_property name="ObjectShortName">count[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/full_speed" type="logic">
+         <obj_property name="ElementShortName">full_speed</obj_property>
+         <obj_property name="ObjectShortName">full_speed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/tim_reset" type="logic">
+         <obj_property name="ElementShortName">tim_reset</obj_property>
+         <obj_property name="ObjectShortName">tim_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/rate_ctrl_1/stb_out" type="logic">
+         <obj_property name="ElementShortName">stb_out</obj_property>
+         <obj_property name="ObjectShortName">stb_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group377" type="group">
+      <obj_property name="label">Combine</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/EN" type="logic">
+         <obj_property name="ElementShortName">EN</obj_property>
+         <obj_property name="ObjectShortName">EN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_in" type="logic">
+         <obj_property name="ElementShortName">stb_in</obj_property>
+         <obj_property name="ObjectShortName">stb_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/ch_count" type="array">
+         <obj_property name="ElementShortName">ch_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_out" type="logic">
+         <obj_property name="ElementShortName">stb_out</obj_property>
+         <obj_property name="ObjectShortName">stb_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/temp_out_2_ch" type="array">
+         <obj_property name="ElementShortName">temp_out_2_ch[1:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_out_2_ch[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/temp_out_4_ch" type="array">
+         <obj_property name="ElementShortName">temp_out_4_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_out_4_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/temp_out_8_ch" type="array">
+         <obj_property name="ElementShortName">temp_out_8_ch[7:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_out_8_ch[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/state_2_ch" type="array">
+         <obj_property name="ElementShortName">state_2_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state_2_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/next_state_2_ch" type="array">
+         <obj_property name="ElementShortName">next_state_2_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state_2_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_2_ch" type="logic">
+         <obj_property name="ElementShortName">stb_2_ch</obj_property>
+         <obj_property name="ObjectShortName">stb_2_ch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/out_2_ch" type="array">
+         <obj_property name="ElementShortName">out_2_ch[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out_2_ch[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/out_4_ch" type="array">
+         <obj_property name="ElementShortName">out_4_ch[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out_4_ch[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/out_8_ch" type="array">
+         <obj_property name="ElementShortName">out_8_ch[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out_8_ch[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/state_4_ch" type="array">
+         <obj_property name="ElementShortName">state_4_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state_4_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/next_state_4_ch" type="array">
+         <obj_property name="ElementShortName">next_state_4_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state_4_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_4_ch" type="logic">
+         <obj_property name="ElementShortName">stb_4_ch</obj_property>
+         <obj_property name="ObjectShortName">stb_4_ch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/state_8_ch" type="array">
+         <obj_property name="ElementShortName">state_8_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state_8_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/next_state_8_ch" type="array">
+         <obj_property name="ElementShortName">next_state_8_ch[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state_8_ch[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_8_ch" type="logic">
+         <obj_property name="ElementShortName">stb_8_ch</obj_property>
+         <obj_property name="ObjectShortName">stb_8_ch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/out_16_ch" type="array">
+         <obj_property name="ElementShortName">out_16_ch[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out_16_ch[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/stb_16_ch" type="logic">
+         <obj_property name="ElementShortName">stb_16_ch</obj_property>
+         <obj_property name="ObjectShortName">stb_16_ch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/data_composer_1/ch_adr" type="array">
+         <obj_property name="ElementShortName">ch_adr[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_adr[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group227" type="group">
+      <obj_property name="label">Data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/DATA_IN" type="array">
+         <obj_property name="ElementShortName">DATA_IN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/MUX_DATA" type="array">
+         <obj_property name="ElementShortName">MUX_DATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MUX_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/COMPOSED_DATA" type="array">
+         <obj_property name="ElementShortName">COMPOSED_DATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">COMPOSED_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/FIFO_DATA" type="array">
+         <obj_property name="ElementShortName">FIFO_DATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/FIFO_2_DATA" type="array">
+         <obj_property name="ElementShortName">FIFO_2_DATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_2_DATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/DECOMP_DATA" type="array">
+         <obj_property name="ElementShortName">DECOMP_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DECOMP_DATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/FIFO_8_DATA" type="array">
+         <obj_property name="ElementShortName">FIFO_8_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_8_DATA[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group424" type="group">
+      <obj_property name="label">FIFO8</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/wr_clk" type="logic">
+         <obj_property name="ElementShortName">wr_clk</obj_property>
+         <obj_property name="ObjectShortName">wr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/rd_clk" type="logic">
+         <obj_property name="ElementShortName">rd_clk</obj_property>
+         <obj_property name="ObjectShortName">rd_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/rd_data_count" type="array">
+         <obj_property name="ElementShortName">rd_data_count[12:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/wr_rst_busy" type="logic">
+         <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_8/rd_rst_busy" type="logic">
+         <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sym_top/top_mod_1/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group323" type="group">
+      <obj_property name="label">FIFO16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/srst" type="logic">
+         <obj_property name="ElementShortName">srst</obj_property>
+         <obj_property name="ObjectShortName">srst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/din" type="array">
+         <obj_property name="ElementShortName">din[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/dout" type="array">
+         <obj_property name="ElementShortName">dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group338" type="group">
+      <obj_property name="label">FIFO16_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/srst" type="logic">
+         <obj_property name="ElementShortName">srst</obj_property>
+         <obj_property name="ObjectShortName">srst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/din" type="array">
+         <obj_property name="ElementShortName">din[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/dout" type="array">
+         <obj_property name="ElementShortName">dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16_2/data_count" type="array">
+         <obj_property name="ElementShortName">data_count[13:0]</obj_property>
+         <obj_property name="ObjectShortName">data_count[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_16/data_count" type="array">
+         <obj_property name="ElementShortName">data_count[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_count[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group348" type="group">
+      <obj_property name="label">FOFO_B_TR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_count" type="array">
+         <obj_property name="ElementShortName">fifo_count[16:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_b_tr_overflow" type="logic">
+         <obj_property name="ElementShortName">fifo_b_tr_overflow</obj_property>
+         <obj_property name="ObjectShortName">fifo_b_tr_overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_b_tr_rst" type="logic">
+         <obj_property name="ElementShortName">fifo_b_tr_rst</obj_property>
+         <obj_property name="ObjectShortName">fifo_b_tr_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/fifo_b_tr_count" type="array">
+         <obj_property name="ElementShortName">fifo_b_tr_count[16:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_b_tr_count[16:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group437" type="group">
+      <obj_property name="label">Sampling_timer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/samp_timer_count" type="array">
+         <obj_property name="ElementShortName">samp_timer_count[23:0]</obj_property>
+         <obj_property name="ObjectShortName">samp_timer_count[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/samp_timer_set" type="array">
+         <obj_property name="ElementShortName">samp_timer_set[23:0]</obj_property>
+         <obj_property name="ObjectShortName">samp_timer_set[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/samp_timer_count_en" type="logic">
+         <obj_property name="ElementShortName">samp_timer_count_en</obj_property>
+         <obj_property name="ObjectShortName">samp_timer_count_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sym_top/top_mod_1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group292" type="group">
+      <obj_property name="label">Trimmer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/TRIM_SDA" type="logic">
+         <obj_property name="ElementShortName">TRIM_SDA</obj_property>
+         <obj_property name="ObjectShortName">TRIM_SDA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/TRIM_SCL" type="logic">
+         <obj_property name="ElementShortName">TRIM_SCL</obj_property>
+         <obj_property name="ObjectShortName">TRIM_SCL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sym_top/top_mod_1/enable_ack" type="logic">
+      <obj_property name="ElementShortName">enable_ack</obj_property>
+      <obj_property name="ObjectShortName">enable_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="group731" type="group">
+      <obj_property name="label">Decomposer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/EN" type="logic">
+         <obj_property name="ElementShortName">EN</obj_property>
+         <obj_property name="ObjectShortName">EN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/stb_in" type="logic">
+         <obj_property name="ElementShortName">stb_in</obj_property>
+         <obj_property name="ObjectShortName">stb_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/ack_in" type="logic">
+         <obj_property name="ElementShortName">ack_in</obj_property>
+         <obj_property name="ObjectShortName">ack_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/stb_out" type="logic">
+         <obj_property name="ElementShortName">stb_out</obj_property>
+         <obj_property name="ObjectShortName">stb_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/ack_out" type="logic">
+         <obj_property name="ElementShortName">ack_out</obj_property>
+         <obj_property name="ObjectShortName">ack_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sym_top/top_mod_1/decomposer_1/data_in_temp" type="array">
+         <obj_property name="ElementShortName">data_in_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_temp[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

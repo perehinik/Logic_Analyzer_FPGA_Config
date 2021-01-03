@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_trim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top

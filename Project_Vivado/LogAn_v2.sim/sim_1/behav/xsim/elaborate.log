@@ -1,0 +1,55 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=2)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.i2c_trim
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=18)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav

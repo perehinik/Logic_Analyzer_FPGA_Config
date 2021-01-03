@@ -1,0 +1,23 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sim_1/new/sym_top.v,1604869270,verilog,,,,sym_top,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v,1599066353,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v,,clk_wiz_1,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v,1599066353,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v,,clk_wiz_1_clk_wiz,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1602417429,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v,,fifo_generator_0,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v,1602417459,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v,,fifo_generator_1,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v,1602418470,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,,fifo_generator_2,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v,1604846813,verilog,,C:/Xilinx/VivadoProj/LogAn_release/src/ascii_to_hex.v,,Mux_1b_16;Mux_1b_4,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v,1600887666,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v,,data_composer,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_demux.v,1604846930,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v,,data_mux,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v,1604841037,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v,,data_rate_ctrl,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v,1604841861,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v,,decomposer_16_8,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/i2c_trim.v,1604853974,verilog,,C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v,,i2c_trim,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v,1604843056,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v,,synchroniser,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/timer1.v,1599395938,verilog,,C:/Xilinx/VivadoProj/LogAn_release/src/top_mod.v,,timer1,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/trigger.v,1601322630,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sim_1/new/sym_top.v,,trigger,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/src/ascii_to_hex.v,1604841515,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/data_composer.v,,ascii_to_hex,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/src/set_decode.v,1604843841,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/synchroniser.v,,set_decode,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,
+C:/Xilinx/VivadoProj/LogAn_release/src/top_mod.v,1604868573,verilog,,C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.srcs/sources_1/new/trigger.v,,top_mod,,,../../../../LogAn_v2.srcs/sources_1/ip/clk_wiz_1,,,,,

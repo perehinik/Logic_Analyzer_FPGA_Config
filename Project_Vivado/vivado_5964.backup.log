@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov  8 18:53:48 2020
+# Process ID: 5964
+# Current directory: C:/Xilinx/VivadoProj/LogAn_release
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8816 C:\Xilinx\VivadoProj\LogAn_release\LogAn_v2.xpr
+# Log file: C:/Xilinx/VivadoProj/LogAn_release/vivado.log
+# Journal file: C:/Xilinx/VivadoProj/LogAn_release\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/VivadoProj/LogAn_v2_release_works' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 821.750 ; gain = 122.270
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 18:58:42 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 18:58:42 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+set_property PROGRAM.FILE {C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/impl_1/top_mod.bit} [get_hw_devices xc7a15t_0]
+current_hw_device [get_hw_devices xc7a15t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a15t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl064l-spi-x1_x2_x4}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+Mfg ID : 1   Memory Type : 60   Memory Capacity : 17   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:05 ; elapsed = 00:01:01 . Memory (MB): peak = 1539.496 ; gain = 9.629
+endgroup
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 19:24:25 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 19:24:25 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_release/LogAn_v2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  8 19:42:36 2020...

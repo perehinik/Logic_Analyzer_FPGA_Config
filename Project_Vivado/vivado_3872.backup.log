@@ -1,0 +1,2051 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov  8 12:11:50 2020
+# Process ID: 3872
+# Current directory: C:/Xilinx/VivadoProj/LogAn_v2_release_works
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5824 C:\Xilinx\VivadoProj\LogAn_v2_release_works\LogAn_v2.xpr
+# Log file: C:/Xilinx/VivadoProj/LogAn_v2_release_works/vivado.log
+# Journal file: C:/Xilinx/VivadoProj/LogAn_v2_release_works\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 823.906 ; gain = 145.965
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim/xsim.dir/sym_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  8 14:16:06 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 865.824 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sym_top_behav -key {Behavioral:sim_1:Functional:sym_top} -tclbatch {sym_top.tcl} -view {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_freq was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_samples was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_trigger_ch was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_active_ch_bitmap was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_trigger_type was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/CLK was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/RST was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/data_in was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/data_out was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/ch_mask_set was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/ch_count was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/state was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/next_state was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mux_adr was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mux_timer_reset was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mux_timer_count was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mux_timer_finish was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mask_mux_out was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/data_demux_1/mux_mask_en was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_freq was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_samples was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_trigger_ch was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_active_ch_bitmap was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_voltage was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/set_trigger_type was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/rst_mux_stb was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/decode1/update_voltage was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/rate_ctrl_1/data_rate_set was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/fifo_b_tr_set was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/fifo_b_tr_upd_synch was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/set_samples was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/update_samples was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/trim_voltage was not found in the design.
+WARNING: Simulation object /sym_top/top_mod_1/trim_update was not found in the design.
+source sym_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sym_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 922.980 ; gain = 57.156
+run 1000 us
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 922.980 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 927.328 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 927.328 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 927.328 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 928.570 ; gain = 0.000
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 928.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 928.570 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 928.570 ; gain = 0.000
+run 1000 us
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 928.570 ; gain = 0.000
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 928.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 928.570 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 928.570 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 928.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 928.570 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 928.570 ; gain = 0.000
+run 1000 us
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 941.945 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 941.945 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 941.945 ; gain = 0.000
+run 1000 us
+WARNING: [Simulator 45-29] Cannot open source file /wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_2/simulation/fifo_generator_vlog_beh.v: file does not exist.
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.539 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.539 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 945.539 ; gain = 0.000
+run 1000 us
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 17 for port data_out [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:181]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 1 for port ch_bitmap_upd_flag [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:191]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.539 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.539 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 945.539 ; gain = 0.000
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.637 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 945.637 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 945.637 ; gain = 0.000
+run 1000 us
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 945.637 ; gain = 0.000
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 948.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 948.883 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 948.883 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sym_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sym_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1b_16
+INFO: [VRFC 10-311] analyzing module Mux_1b_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii_to_hex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_composer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_rate_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decomposer_16_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synchroniser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sim_1/new/sym_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sym_top
+"xvhdl --incr --relax -prj sym_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 02604afb8cb44cd48164375c2d243165 --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sym_top_behav xil_defaultlib.sym_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 24 differs from formal bit length 17 for port trig_position [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:97]
+WARNING: [VRFC 10-597] element index 23 into trig_position is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+WARNING: [VRFC 10-597] element index 23 into ch_bitmap is out of bounds [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.12...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.ascii_to_hex
+Compiling module xil_defaultlib.timer1(SIZE=20)
+Compiling module xil_defaultlib.set_decode
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=16)
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=17)
+Compiling module xil_defaultlib.timer1(SIZE=5)
+Compiling module xil_defaultlib.Mux_1b_16
+Compiling module xil_defaultlib.data_mux_default
+Compiling module xil_defaultlib.data_rate_ctrl
+Compiling module xil_defaultlib.Mux_1b_4
+Compiling module xil_defaultlib.data_composer_default
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_s...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_COMMON_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=1)
+Compiling module xil_defaultlib.decomposer_16_8
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stag...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_a...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_p...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER(...
+Compiling module fifo_generator_v13_2_2.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module fifo_generator_v13_2_2.fifo_generator_v13_2_2(C_EN_SAFE...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=8)
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.synchroniser(BUS_WIDTH=9)
+Compiling module xil_defaultlib.top_mod
+Compiling module xil_defaultlib.timer1(SIZE=4)
+Compiling module xil_defaultlib.sym_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sym_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 948.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 948.883 ; gain = 0.000
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sym_top.top_mod_1.clk.inst.mmcm_adv_inst 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 948.883 ; gain = 0.000
+run 1000 us
+save_wave_config {C:/Xilinx/VivadoProj/LogAn_v2_release_works/sym_top_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 14:50:21 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 14:50:21 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a15tftg256-2
+Top: top_mod
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1018.262 ; gain = 55.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_mod' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:11]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter DATA_ACK bound to: 4'b0001 
+	Parameter TR_IDLE bound to: 4'b0000 
+	Parameter DATA_START bound to: 4'b0001 
+	Parameter DATA_OUT bound to: 4'b0010 
+	Parameter DATA_STOP bound to: 4'b0011 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (1#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'set_decode' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:10]
+	Parameter LED_COUNTER bound to: 20'b01000000000000000000 
+	Parameter IDLE bound to: 4'b0000 
+	Parameter CH_SYM_1 bound to: 4'b0001 
+	Parameter CH_SYM_2 bound to: 4'b0010 
+	Parameter CH_SYM_3 bound to: 4'b0011 
+	Parameter RD_HEX_1 bound to: 4'b0100 
+	Parameter RD_HEX_2 bound to: 4'b0101 
+	Parameter RD_HEX_3 bound to: 4'b0110 
+	Parameter RD_HEX_4 bound to: 4'b0111 
+	Parameter RD_HEX_5 bound to: 4'b1000 
+	Parameter RD_HEX_6 bound to: 4'b1001 
+	Parameter SAVE_SET bound to: 4'b1010 
+	Parameter RST_FLAG bound to: 4'b1011 
+ERROR: [Synth 8-524] part-select [23:0] out of range of prefix 'trig_position' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:91]
+ERROR: [Synth 8-6156] failed synthesizing module 'set_decode' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:10]
+ERROR: [Synth 8-6156] failed synthesizing module 'top_mod' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1059.020 ; gain = 96.383
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+4 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 14:56:09 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 14:56:09 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 14:57:26 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 14:57:26 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 14:58:28 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 14:58:28 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/runme.log
+reset_run synth_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a15tftg256-2
+Top: top_mod
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1110.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_mod' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:11]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter DATA_ACK bound to: 4'b0001 
+	Parameter TR_IDLE bound to: 4'b0000 
+	Parameter DATA_START bound to: 4'b0001 
+	Parameter DATA_OUT bound to: 4'b0010 
+	Parameter DATA_STOP bound to: 4'b0011 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (1#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/clk_wiz_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'set_decode' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:10]
+	Parameter LED_COUNTER bound to: 20'b01000000000000000000 
+	Parameter IDLE bound to: 4'b0000 
+	Parameter CH_SYM_1 bound to: 4'b0001 
+	Parameter CH_SYM_2 bound to: 4'b0010 
+	Parameter CH_SYM_3 bound to: 4'b0011 
+	Parameter RD_HEX_1 bound to: 4'b0100 
+	Parameter RD_HEX_2 bound to: 4'b0101 
+	Parameter RD_HEX_3 bound to: 4'b0110 
+	Parameter RD_HEX_4 bound to: 4'b0111 
+	Parameter RD_HEX_5 bound to: 4'b1000 
+	Parameter RD_HEX_6 bound to: 4'b1001 
+	Parameter SAVE_SET bound to: 4'b1010 
+	Parameter RST_FLAG bound to: 4'b1011 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:94]
+INFO: [Synth 8-6157] synthesizing module 'ascii_to_hex' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_to_hex' (2#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/ascii_to_hex.v:10]
+INFO: [Synth 8-6157] synthesizing module 'timer1' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+	Parameter SIZE bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer1' (3#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'set_decode' (4#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/set_decode.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser' (5#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized0' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized0' (5#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_mux' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v:10]
+	Parameter IDLE bound to: 5'b00000 
+	Parameter MUX_1 bound to: 5'b00001 
+	Parameter MUX_2 bound to: 5'b00010 
+	Parameter MUX_3 bound to: 5'b00011 
+	Parameter MUX_4 bound to: 5'b00100 
+	Parameter MUX_5 bound to: 5'b00101 
+	Parameter MUX_6 bound to: 5'b00110 
+	Parameter MUX_7 bound to: 5'b00111 
+	Parameter MUX_8 bound to: 5'b01000 
+	Parameter MUX_9 bound to: 5'b01001 
+	Parameter MUX_10 bound to: 5'b01010 
+	Parameter MUX_11 bound to: 5'b01011 
+	Parameter MUX_12 bound to: 5'b01100 
+	Parameter MUX_13 bound to: 5'b01101 
+	Parameter MUX_14 bound to: 5'b01110 
+	Parameter MUX_15 bound to: 5'b01111 
+	Parameter MUX_16 bound to: 5'b10000 
+INFO: [Synth 8-6157] synthesizing module 'Mux_1b_16' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_1b_16' (6#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:10]
+INFO: [Synth 8-6157] synthesizing module 'timer1__parameterized0' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+	Parameter SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer1__parameterized0' (6#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/timer1.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'data_mux' (7#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_demux.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_rate_ctrl' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'data_rate_ctrl' (8#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_rate_ctrl.v:10]
+INFO: [Synth 8-6157] synthesizing module 'data_composer' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v:10]
+	Parameter IDLE_2 bound to: 4'b0000 
+	Parameter ST_2_1 bound to: 4'b0001 
+	Parameter ST_2_2 bound to: 4'b0010 
+	Parameter ST_2_3 bound to: 4'b0011 
+	Parameter ST_2_4 bound to: 4'b0100 
+	Parameter ST_2_5 bound to: 4'b0101 
+	Parameter ST_2_6 bound to: 4'b0110 
+	Parameter ST_2_7 bound to: 4'b0111 
+	Parameter ST_2_8 bound to: 4'b1000 
+	Parameter IDLE_4 bound to: 4'b0000 
+	Parameter ST_4_1 bound to: 4'b0001 
+	Parameter ST_4_2 bound to: 4'b0010 
+	Parameter ST_4_3 bound to: 4'b0011 
+	Parameter ST_4_4 bound to: 4'b0100 
+	Parameter IDLE_8 bound to: 4'b0000 
+	Parameter ST_8_1 bound to: 4'b0001 
+	Parameter ST_8_2 bound to: 4'b0010 
+INFO: [Synth 8-6157] synthesizing module 'Mux_1b_4' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_1b_4' (9#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/Mux_1b_16.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v:59]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v:125]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v:181]
+INFO: [Synth 8-6155] done synthesizing module 'data_composer' (10#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/data_composer.v:10]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_1' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_1' (11#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_0' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_0' (12#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized1' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized1' (12#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'decomposer_16_8' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:10]
+	Parameter IDLE bound to: 2'b00 
+	Parameter DATA_OUT_1 bound to: 2'b01 
+	Parameter DATA_OUT_2 bound to: 2'b10 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'decomposer_16_8' (13#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/decomposer_16_8.v:10]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_2' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_2' (14#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/.Xil/Vivado-3872-HomeIvan22/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized2' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized2' (14#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'trigger' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'trigger' (15#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/trigger.v:10]
+INFO: [Synth 8-6157] synthesizing module 'synchroniser__parameterized3' [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+	Parameter BUS_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'synchroniser__parameterized3' (15#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/new/synchroniser.v:10]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:522]
+WARNING: [Synth 8-5788] Register data_out_reg in module top_mod is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:518]
+INFO: [Synth 8-6155] done synthesizing module 'top_mod' (16#1) [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/top_mod.v:11]
+WARNING: [Synth 8-3917] design top_mod has port FT_SIWU driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.dcp' for cell 'clk'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp' for cell 'fifo_16'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'fifo_16_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.dcp' for cell 'fifo_8'
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a15tftg256-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_board.xdc] for cell 'clk/inst'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_board.xdc] for cell 'clk/inst'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc] for cell 'clk/inst'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc] for cell 'clk/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_mod_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_mod_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.xdc] for cell 'fifo_8/U0'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'fifo_16/U0'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'fifo_16/U0'
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'fifo_16_2/U0'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'fifo_16_2/U0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/pins.xdc]
+Finished Parsing XDC File [C:/Xilinx/VivadoProj/LogAn_v2_release_works/src/pins.xdc]
+Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2_clocks.xdc] for cell 'fifo_8/U0'
+Finished Parsing XDC File [c:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2_clocks.xdc] for cell 'fifo_8/U0'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_mod_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_mod_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_mod_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_mod_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_8/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1428.695 ; gain = 318.391
+66 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1428.695 ; gain = 318.391
+launch_runs synth_1 -jobs 2
+[Sun Nov  8 15:01:54 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Nov  8 15:03:37 2020] Launched synth_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/synth_1/runme.log
+[Sun Nov  8 15:03:37 2020] Launched impl_1...
+Run output will be captured here: C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+set_property PROGRAM.FILE {C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bit} [get_hw_devices xc7a15t_0]
+current_hw_device [get_hw_devices xc7a15t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a15t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl064l-spi-x1_x2_x4}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/285841781138}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/285841781138}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+Mfg ID : 1   Memory Type : 60   Memory Capacity : 17   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation failed.
+ERROR: [Labtools 27-3161] Flash Programming Unsuccessful
+ERROR: [Common 17-39] 'program_hw_cfgmem' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-2302] Device xc7a15t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+ERROR: [Labtools 27-2312] Device xc7a15t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/285841781138.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a15t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a15t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a15t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a15t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a15t_0] 0]; }; 
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1435] Device xc7a15t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/285841781138
+INFO: [Labtools 27-1434] Device xc7a15t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a15t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a15t_0]
+set_property PROGRAM.FILE {C:/Xilinx/VivadoProj/LogAn_v2_release_works/LogAn_v2.runs/impl_1/top_mod.bin} [get_hw_devices xc7a15t_0]
+program_hw_devices [get_hw_devices xc7a15t_0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/285841781138
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  8 15:22:35 2020...
